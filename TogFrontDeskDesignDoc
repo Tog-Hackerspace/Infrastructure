@@ -1,0 +1,46 @@
+Tog Front Desk
+A Design Document to create a text based app run on a raspberry pi
+
+Overview:  
+    The text-based app is designed for a makerspace and will run on a Raspberry Pi. It aims to provide a user-friendly interface that offers relevant information about the makerspace, integrates with the local bus and light rail systems through an API hookup, and includes contact details for consenting members.
+
+    Features:
+    a. User Interface: The app will have a simple text-based interface that can be easily navigated using keyboard inputs. The interface should be intuitive and user-friendly.
+
+    b. Information Display: The app will provide information about the makerspace, such as location, opening hours, available equipment, upcoming events, and any specific rules or guidelines for using the space.
+
+    c. Local Transportation Integration: The app will integrate with the local bus and light rail systems through an API hookup. It will display real-time information on bus and light rail schedules, routes, and delays. Users can check the status of their desired routes or find the nearest transportation options.
+
+    d. Contact Details: The app will include contact details for consenting members of the makerspace, allowing users to easily get in touch with fellow members for collaboration, inquiries, or assistance.
+
+    Architecture:
+    a. Raspberry Pi: The app will be designed to run on a Raspberry Pi, utilizing its capabilities and connectivity options.
+
+    b. Front-End Interface: The front-end interface will be text-based, leveraging Python or a similar programming language to create a command-line interface that interacts with the user.
+
+    c. API Integration: The app will incorporate APIs provided by the local bus and light rail systems to fetch real-time transportation information. The integration will involve making HTTP requests, parsing responses, and presenting the data in a user-friendly format.
+
+    d. Data Storage: Contact details of consenting members can be stored in a local database or a file, ensuring the privacy and security of member information.
+
+    User Interaction:
+    a. Main Menu: Upon launching the app, users will be presented with a main menu that lists available options such as makerspace information, transportation information, and member contacts.
+
+    b. Navigation: Users can navigate through the app using specific commands or by selecting options from numbered menus.
+
+    c. Input Validation: The app will validate user inputs to ensure proper selection and prevent errors. It will provide clear instructions on how to use the app effectively.
+
+    Deployment:
+    a. Raspberry Pi Setup: The Raspberry Pi will be set up with the required dependencies, libraries, and APIs to run the app smoothly.
+
+    b. Installation and Updates: The app can be installed and updated using a package manager or a dedicated installation script. This allows for easy distribution and future updates.
+
+    c. User Documentation: A user guide or documentation will be provided to help users understand how to install, configure, and use the app effectively.
+
+    Security and Privacy:
+    a. Member Consent: The app will respect the privacy of members and only display contact details of consenting members.
+
+    b. Data Encryption: If necessary, sensitive data such as member contact details can be encrypted when stored on the Raspberry Pi or during transmission.
+
+    c. Secure Development Practices: The app will be developed following secure coding practices to minimize vulnerabilities and protect user data.
+
+Note: This design document provides an overview of the text-based app for a makerspace. Further details and implementation specifics, such as programming languages, libraries, and frameworks to be used, will need to be determined based on specific requirements and technical considerations.
